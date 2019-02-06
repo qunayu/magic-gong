@@ -1,3 +1,6 @@
+# Magic gong
+A magic gong that makes decisions for you. Deployed with heroku here: https://magic-gong.herokuapp.com (Be patient, I'm on a free account and am slooooow!)
+
 ## Running Locally
 
 Before following these steps, ensure you have npm and 
