@@ -1,0 +1,9 @@
+.idea/
+*.idea
+.idea
+node_modules/
+venv/
+*.pyc
+decideforme/__pycache__/*
+staticfiles/
+webpack-stats.json

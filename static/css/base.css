@@ -1,0 +1,76 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div#react-root {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 60px;
+    background-color: #5A1D55;
+    box-sizing: border-box;
+    padding: 0 15%;
+}
+
+header > img {
+    height: 100%;
+}
+
+button {
+    background-color: white;
+    color: #5A1D55;
+    border-radius: 30px;
+    border: 2px solid #5A1D55;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #5A1D55;
+    transition: 0.5s;
+}
+
+
+button:active {
+    cursor: pointer;
+    color: white;
+    background-color: #55134E;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input, textarea{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 601px) {
+    header {
+        padding: 0 5%;
+    }
+
+    .home-base > div {
+        padding: 15% 0;
+    }
+}

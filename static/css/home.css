@@ -1,0 +1,36 @@
+div.home-base {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 100px 10%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+    font-size: 3em;
+    font-weight: 400;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px black, 0 0 25px black,0 0 5px black;
+}
+
+h3 > input {
+    text-align: center;
+    background: inherit;
+    font: inherit;
+    color: inherit;
+    text-shadow: inherit;
+    box-shadow: 0 3px 2px -2px black;
+    border: 0;
+    border-bottom: 2px solid white;
+    margin: 20px 5px;
+    padding: 0 20px;
+}
+
+input:focus {
+    outline: 0;
+}
