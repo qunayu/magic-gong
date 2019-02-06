@@ -1,4 +1,4 @@
-b## Running Locally
+## Running Locally
 
 Before following these steps, ensure you have npm and 
 python3 on your machine.
